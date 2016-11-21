@@ -1,0 +1,15 @@
+<script>
+  //获取一个区间内的随机数
+  function random(min,max){
+  return  ((max-min)*Math.random())+min;
+  };
+  //获取随机的0 或 1
+  function getZO（）{
+  return Math.round(Math.random())
+  //去整的3个方法
+  
+  1、Math.floor()   用于舍弃，向下取整。
+  2、Math.round()   用于四舍五入。
+  3、Math.ceil()    用于进位。向上取整。
+ 
+</script>
