@@ -31,7 +31,8 @@ $(function(){
 		}
 	})
 	$(".form").on("submit",function(){
-		var text = $(e.target).text();
+		var text = $(".search_text").val();
+		alert(text)
 		location.href = "http://cn.bing.com/search?q="+text;
 		return false;
 	})
