@@ -133,7 +133,7 @@ var fp={
                 window.baidu = {
                     sug: function(json) {
                     	//alert(json)
-                    	console.log(json)
+                    	//console.log(json)
                     	var html="";
                     	var json=json.s;
                     	for(var i= 0; i<json.length;i++){
