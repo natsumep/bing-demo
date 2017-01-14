@@ -120,8 +120,8 @@ var util = {
 					}
 					$(".search_xl").html(html);
 					$(".search_xl").show();
-				};
-			};
+				}
+			}
 			//动态添加JS脚本
 		if ($("#url").length === 0) {
 			util.addScript("url")
