@@ -23,6 +23,7 @@ body{
 	height:100%;
 	width: 100%;
 	background: url(images/back_1.jpg) no-repeat;
+	backgroun-size:100% 100%;	
 	margin:auto auto;
 	min-height: 600px;
 	min-width: 800px;
